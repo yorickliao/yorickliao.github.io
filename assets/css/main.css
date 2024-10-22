@@ -79,6 +79,34 @@ input, select, textarea {
     margin: 10px; /* Adjust the margin as needed */
     text-align: center;
 }
+/* Style for grayscale image */
+.programming-logo {
+    width: 100px;
+    height: 100px; /* Adjust size as needed */
+    filter: grayscale(100%); /* Make the image black and white by default */
+    transition: filter 0.3s; /* Add a smooth transition effect */
+}
+
+/* Remove grayscale filter on hover to show the image in color */
+.programming-logo:hover {
+    filter: grayscale(0%);
+}
+.ros-logo {
+    width: 250px;
+    height: 100px; /* Adjust size as needed */
+    filter: grayscale(100%); /* Make the image black and white by default */
+    transition: filter 0.3s; /* Add a smooth transition effect */
+}
+.ros-logo:hover {
+    filter: grayscale(0%);
+}
+.ros-container {
+    display: inline-block;
+    width: 275px; /* Adjust width as needed for 2 logos per row */
+    height: 128px; /* Adjust height as needed */
+    margin: 10px; /* Adjust the margin as needed */
+    text-align: center;
+}
 
 /* Basic */
 
