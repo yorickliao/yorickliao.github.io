@@ -72,6 +72,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+.logo-container {
+    display: inline-block;
+    width: 128px; /* Adjust width as needed for 2 logos per row */
+    height: 128px; /* Adjust height as needed */
+    margin: 10px; /* Adjust the margin as needed */
+    text-align: center;
+}
+
 /* Basic */
 
 	html {
