@@ -100,6 +100,9 @@ input, select, textarea {
     text-align: center;
 }
 
+.actions li {
+    list-style: none; /* 移除列表項的預設樣式（如圓點） */
+}
 /* Basic */
 
 	html {
