@@ -100,6 +100,12 @@ input, select, textarea {
     text-align: center;
 }
 
+.actions {
+    display: flex; /* 讓按鈕在一行內排列 */
+    gap: 10px; /* 控制按鈕之間的間距 */
+    justify-content: center; /* 水平居中排列按鈕 */
+}
+
 .actions li {
     list-style: none; /* 移除列表項的預設樣式（如圓點） */
 }
