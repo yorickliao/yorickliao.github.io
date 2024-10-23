@@ -104,6 +104,7 @@ input, select, textarea {
     display: flex; /* 讓按鈕在一行內排列 */
     gap: 10px; /* 控制按鈕之間的間距 */
     justify-content: space-between; /* 水平居中排列按鈕 */
+	padding: 20px;
 }
 
 .actions li {
