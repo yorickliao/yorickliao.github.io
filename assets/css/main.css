@@ -253,8 +253,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: 100%;
-		width: 1200px;
+		max-width: 1200px; /* 設定最大寬度，避免文字靠邊 */
 		padding: 20px;
 	}
 
