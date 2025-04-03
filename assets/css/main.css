@@ -1991,7 +1991,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #000000;
+		border: solid 3px #ffffff;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
